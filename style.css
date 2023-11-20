@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container {
+    background-color: red;
+}
+header img {
+    margin-left: 3px;
+    width: 20px;
+    
+    
+    
+}
+header {
+    box-sizing: border-box;
+    height: 30px;
+    position: fixed;
+    background-color: rgb(70, 69, 69);
+    width: 100%;
+    color: white;
+    
+    
+       
+}
+.div-container1{
+    width: 20px;
+    display: flex;
+    position: absolute;
+    left: 97%;
+    font-size: large;
+    
+    
+
+   
+    
+}
+.div-container2{
+    background: rgb(43, 42, 42);
+    height: 60px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    
+    
+}
+.div-container3{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+
+    
+}
+.div-container4{
+    text-align: center;
+    background-color: rgb(70, 69, 69);
+    color:white;
+    
+    
+}
+.body-div{
+    background-color: rgb(70, 69, 69);
+    
+}
+.button1{
+    width:250px;
+    height: 50px;
+    position:relative;
+    
+    background-color: blue;
+    color: white;
+}
+.button2{
+    position: relative;
+    height: 50px;
+    width: 40px;
+    
+    background-color: blue;
+    color: white;
+}
+.div-container5{
+    text-align: center;
+    color: rgb(2, 2, 245);
+    
+    
+    
+}
+.div-container6{
+    background-color: rgb(70, 69, 69);
+    height:100px
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto ;
+   
+
+}
+.grid-item1{
+    margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.grid-item2{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+  display:grid;
+  border: 1px solid black;
+    
+}
+.grid-item2 img{
+    width: 99%;
+    margin-left: auto;
+  margin-right: auto;
+  
+
+
+}
+.grid-item3{
+    display: grid;
+    width: 100%;
+    
+
+
+}
+
+.grid-container2{
+    grid-template-columns: auto auto ;
+    display: grid;
+    margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  
+  justify-content: center;
+  
+  
+  
+}
+.grid-container3{
+    display: grid;
+    grid-row: auto auto auto;
+    
+}
+.grid-item4{
+    margin-left: auto;
+  margin-right: auto;
+}
+.grid-item5{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.grid-item6{
+    margin-left: auto;
+  margin-right: auto;
+}
+.grid-item7{
+    margin-left: auto;
+  margin-right: auto;
+}
+.grid-item8{
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-item9{
+    margin-left: auto;
+  margin-right: auto;
+}
+ body{
+    overflow-x: hidden; 
+ }
+ .get-started-now{
+    width:200px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    position: relative;
+    display: block;
+    text-align: center;
+    
+ }
+ .get-started-now{
+    width:250px;
+    height: 50px;
+    position:relative;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    
+    
+ }
+ .div-container11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-container12{
+    display: flex;
+    justify-content: center;
+    
+}
+.div-container13{
+    text-align: center;
+    
+    align-items: center;
+}
+.button6{
+    width:100px;
+    height: 50px;
+    position:relative;
+    
+    background-color: blue;
+    color: white;
+}
+.button7{
+    width:100px;
+    height: 50px;
+    position:relative;
+    
+    background-color: blue;
+    color: white;
+
+}
+.div-container18{
+    text-align: center;
+}
+
+.grid-container5{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+}
+.grid-container{
+    grid-row: auto auto;
+    display: grid;
+}
+.grid-container10{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto ;
+    width:100%;
+    
+}
+.div-item21{
+    display:none;
+
+}
+.grid-container25{
+    display:grid;
+    
+    
+}
+.grid-container-responsive{
+    grid-template-columns: 70px 400px  70px 400px 70px 400px;
+    display:grid;
+    
+    margin-left: auto;
+    margin-right:auto;
+    justify-content: center;
+
+}
+.grid-responsive2{
+    display:grid;
+    grid-template-columns: 450px 900px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.grid-responsive3{
+    display:grid;
+    grid-template-columns: 900px 450px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.grid-container67{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.grid-item90{
+    display:grid;
+    justify-content: center;
+}
+.button10{
+    background-color: blue;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+.grid-container68{
+    display:grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    justify-content: center;
+
+}
+.grid-item68{
+    display:grid;
+    justify-content: center;
+}
+.grid-item70{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+.grid-item69{
+    width: 150px;
+    display:grid;
+    justify-content: center;
+}
+.grid-container87{
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+}
+.grid-item87{
+    display: grid;
+    justify-content: center;
+}
+.grid-container88{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+.grid-container89{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+    justify-content: center;
+    gap: 5px;
+}
+.grid-item89{
+    display: grid;
+    
+
+}
+.grid-container90{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+    justify-content: center;
+    gap: 55px;
+}
+.div-footer{
+    height: 80px;
+    background-color: rgb(70, 69, 69);
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 200px;
+}
+.div-footer-item1{
+    display:grid;
+    justify-content: center;
+    
+}
+.div-footer-item2{
+    display:grid;
+    justify-content: center;
+    
+}
